@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "cedula": "40213191956",
+      "telefono": "8492771564",
+      "correo": "20220319@itla.edu.do",
+      "direccion": "La Altagracia",
+      "estadoCivil": "casado",
+      "profesion": "Estudiante",
+      "motivo": "Llevo mucho tiempo trabajando para el gobierno dominicano",
+      "id": 1
+    }
+  ],
+  "inicia": {
+    "password": "123456789"
+  },
+  "Referencias": [
+    {
+      "referencia1": "Winyer",
+      "referencia2": "Manuel",
+      "referencia3": "Jeff",
+      "referencia4": "Omar",
+      "referencia5": "Joshua",
+      "id": 1
+    }
+  ]
+}

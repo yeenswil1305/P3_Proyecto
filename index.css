@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    background: linear-gradient(#007bff, #555555);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.formulario {
+    margin: 0 auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+}
+
+main {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #333333;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px !important;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #000000 !important;
+    color: white;
+}
+
+#cedula:valid {
+    border-color: green;
+}
+
+#cedula:invalid {
+    border-color: red;
+}
+
+/* Eliminar botones de incremento/descenso en input tipo número */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#vista-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#vista-button:hover {
+    background-color: #0056b3;
+}

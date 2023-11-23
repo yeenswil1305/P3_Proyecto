@@ -1,0 +1,11 @@
+{
+  "name": "pw---tarea-3",
+  "version": "1.0.0",
+  "description": "servidor de pw",
+  "main": "validarCedula.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
